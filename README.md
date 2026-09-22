@@ -15,16 +15,32 @@ Raw Data
 
 ## Structure
 
+
 drive-motion-unity/
+│
+├── README.md
+├── .gitignore
+│
 ├── data/
 │   ├── raw/
 │   └── processed/
+│
 ├── preprocessing/
 │   ├── main.py
 │   ├── column_detector.py
 │   └── imu_processor.py
+│
 └── unity/
     └── DriveMotionUnity/
+        ├── Assets/
+        │   ├── Scenes/
+        │   │   └── Main.unity
+        │   └── Scripts/
+        │       ├── DataLoader.cs
+        │       ├── MotionPlayer.cs
+        │       └── ImuVisualizer.cs
+        ├── Packages/
+        └── ProjectSettings/
 
 
 Current Data
