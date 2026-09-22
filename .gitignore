@@ -1,0 +1,44 @@
+# =========================
+# Data
+# =========================
+*.csv
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# =========================
+# Unity
+# =========================
+unity/DriveMotionUnity/[Ll]ibrary/
+unity/DriveMotionUnity/[Tt]emp/
+unity/DriveMotionUnity/[Oo]bj/
+unity/DriveMotionUnity/[Ll]ogs/
+unity/DriveMotionUnity/[Uu]ser[Ss]ettings/
+unity/DriveMotionUnity/[Mm]emoryCaptures/
+
+# Unity generated files
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
